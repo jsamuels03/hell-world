@@ -18,3 +18,40 @@ header {
     background-image: url("header.jpg");
     background-size: cover;
 }
+.services{ 
+    text-align: center;
+}
+.services i{ 
+    /*Adjust the size and postion of the icon*/
+    font-size:30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color:blue;
+    background-color:green;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+.services span{
+    width: 200px;
+    display: inline-block;
+}
+.pricing{
+    text-align:center;
+}
+.pricing i{
+    font-size: 30px;
+    padding:25px 20px;
+    background-color:blue;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+
+
+
+
+
