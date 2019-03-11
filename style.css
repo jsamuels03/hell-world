@@ -49,9 +49,40 @@ header {
     height:80px;
     border-radius:50%;
 }
+.price{
+    border: 1px;
+    border-style:solid;
+    height:250px;
+    text-align:center;
+}
+ 
+.team img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:solid;
+}
 
+.team{
+    text-align:center;
+}
 
+.contact i{
+    padding:25px;
+}    
 
+.contact .input-group{
+    padding:2px;
+}
+
+.contact button{
+    width:100%;
+    background-color:#1462e0;
+}
+
+.contact button:hover{
+background-color:#f90202;
+}
 
 
 
