@@ -7,6 +7,7 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
 </head>
 
 <body>
@@ -40,13 +41,13 @@
     </header>
     <!-- Services-->
     <section class="services container">
+        <hr>
         <h1>
             Services
         </h1>
         <p>
             If help is needed contact.....
         </p>
-        <hr>
         <div class="row">
             <div class="col-md-6">
                 <i class="fas fa-desktop"></i>
@@ -54,19 +55,19 @@
                 <p> If you would like to assist us, go ahead.</p>
             </div>
             <div class="col-md-6">
-                <i class="fas fa-desktop"></i>
+                <i class="fas fa-phone"></i>
                 <span><strong>Mobile Applications</strong></span>
                 <p> We have some of the best applications in the country</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <i class="fas fa-desktop"></i>
+                <i class="fas fa-database"></i>
                 <span><strong>Database</strong></span>
                 <p> Some of the most impressive you've ever seen.</p>
             </div>
             <div class="col-md-6">
-                <i class="fas fa-desktop"></i>
+                <i class="fas fa-university"></i>
                 <span><strong>Consulting</strong></span>
                 <p> Get in contact with some of the best experts</p>
             </div>
@@ -74,6 +75,7 @@
     </section>
     <!-- Pricing -->
     <section class="pricing container">
+        <hr>
         <h1>
             Pricing
         </h1>
@@ -81,33 +83,34 @@
             This is the price of some of our services.
         </P>
         <div class="row">
-            <div class="col-sm-4 price">
-                <i class="fas fa-desktop"></i>
-                <span><strong>Standard</strong></span>
-                <p>$9.99/Month</p>
-                <li>100 Users</li>
-                <li>SSL Certificates</li>
-                <li>Online Support</li>
-            </div>
-            <div class="col-sm-4 price">
-                <i class="fas fa-desktop"></i>
-                <span><strong>Premium</strong></span>
-                <p>$19.99/Month</p>
-                <li>100 users</li>
-                <li>SSL Certificates</li>
-                <li>Online Support</li>
-            </div>
-            <div class="col-sm-4 price">
-                <i class="fas fa-desktop"></i>
-                <span><strong>Ultimate</strong></span>
-                <p>$29.99/Month</p>
-                <li>100 Users</li>
-                <li>SSL Certificates</li>
-                <li>Online Support</li>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Standard</h5>
+                        <p class="card-text">$5.99/month</p>
+                        <p class="card-text"><small class="text-muted">100 users; SSR Certificate; All rights reserved 2019 </small></p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium</h5>
+                        <p class="card-text">$39.99/month</p>
+                        <p class="card-text"><small class="text-muted">100 users; SSR Certificate; All rights reserved 2019 </small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultimate</h5>
+                        <p class="card-text">$99.99/month</p>
+                        <p class="card-text"><small class="text-muted">100 users; SSR Certificate; All rights reserved 2019</small></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="team container">
+        <hr>
         <h1>
             Team
         </h1>
@@ -140,66 +143,46 @@
                 <p>The Help</p>
             </div>
 
-        </div>
+            <!--</div>-->
 
         </div>
     </section>
 
     <!--Contact-->
     <section class="contact container">
-        <h1>
-            Contact Us
-        </h1>
-        <p> Have a problem? Feel free to contact us </p>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="input-group input-group-sm mb-3">
-                        <div class="input-group-prepend">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        <hr>
+        <h2>Contact Us</h2>
+        <p>Got a question, dontation ideas or a crazy sugeestion you want to share? We'd love to hear from you!</p>
+        <!--<div id="contact" class="contact">-->
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="input-group input-group-sm mb-3">
-                        <div class="input-group-prepend">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-group input-group-sm mb-3">
-                        <div class="input-group-prepend">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
+
+                <div class="col-lg-6 col-md-6">
                     <div class="input-group">
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                        <textarea cols="80" rows="6" class="form-control"></textarea>
                     </div>
+                    <button class="btn btn-lg">Submit Your Message</button>
                 </div>
-                <button type="button" class="btn btn-primary">Primary</button>
+
             </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
+        <!--</div>-->
     </section>
+
+
 
 
 

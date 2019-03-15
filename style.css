@@ -1,7 +1,11 @@
 nav {
     background-color: blue;
   text-transform: uppercase;
-  font-family: PT Sans Narrow;
+  font-family: 'Cookie', cursive;
+}
+body{
+    font-family: 'Cookie', cursive;
+    font-size: x-large
 }
 .nav-link {
     opacity: 0.7;
@@ -49,13 +53,7 @@ header {
     height:80px;
     border-radius:50%;
 }
-.price{
-    border: 1px;
-    border-style:solid;
-    height:250px;
-    text-align:center;
-}
- 
+
 .team img{
     height:200px;
     width:200px;
@@ -67,22 +65,71 @@ header {
     text-align:center;
 }
 
-.contact i{
-    padding:25px;
-}    
+/*contact*/
 
-.contact .input-group{
-    padding:2px;
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    font-weight: bold;
+   
+    
 }
 
-.contact button{
-    width:100%;
-    background-color:#1462e0;
+.contact p {
+    
+    padding-bottom: 5px;
+    color: #323232;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  'Arapey', serif;
+     z-index:1!important;
 }
 
-.contact button:hover{
-background-color:#f90202;
+.contact h2 {
+    
+    color:#fa0511;
+    margin: 70px 0 70px;
+    font-size: 40px;
+    font-weight:italic;
+   font-family:  'Arapey', serif;
+    position:center;
+    left:40%;
+    z-index:1;
 }
 
+/*.contact .input-group {*/
+    
+/*    margin-bottom: 35px;*/
+/*}*/
 
+.contact .form-control {
+    
+    border-radius: 0 !important;
+    z-index:1;
+}
 
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #fa0511;
+    color: #fff;
+    z-index:1;
+}
+
+.contact .btn:hover {
+    
+    background-color: #778899 !important;
+    color: #fff !important;
+}
+
+    
+    
